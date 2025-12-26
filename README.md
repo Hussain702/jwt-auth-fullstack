@@ -50,4 +50,25 @@ jwt-auth-fullstack/
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/jwt-auth-fullstack.git
-cd jwt-auth-fullstack
+cd jwt-auth-fullstack  
+
+### 2️⃣ Backend Setup
+npm install
+
+# Create a .env file inside Backend:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+
+# Run backend:
+
+npm start
+
+
+Backend runs on:
+
+http://localhost:8080
+
+
