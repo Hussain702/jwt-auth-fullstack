@@ -6,12 +6,12 @@ The project demonstrates secure authentication using **JWT (JSON Web Tokens)** w
 ---
 
 ## 📂 Project Structure
-
+````bash
 jwt-auth-fullstack/
 │
 ├── Backend/ # Node.js + Express (MVC architecture)
 └── Frontend/ # React (Vite)
-
+````
 
 ---
 
@@ -84,25 +84,25 @@ http://localhost:5173
 ```
 ### 🔐 Authentication Flow
 
--- User logs in or signs up
--- Backend generates JWT
--- Token is sent to frontend
--- Token is stored on client side
--- Token is sent with each request
--- Backend verifies JWT for protected routes
+- User logs in or signs up
+- Backend generates JWT
+- Token is sent to frontend
+- Token is stored on client side
+- Token is sent with each request
+- Backend verifies JWT for protected routes
 
 ### 📌 Future Improvements
 
--- Refresh Tokens
--- Role-based authorization
--- Email verification
--- Password reset
- --Deployment (Render / Vercel)
+- Refresh Tokens
+- Role-based authorization
+- Email verification
+- Password reset
+- Deployment (Render / Vercel)
 
  ### 👨‍💻 Author
 
--- Hussain Ali
-Backen Developement 
+- Hussain Ali
+  Backen Developement 
 
 
 
